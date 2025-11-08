@@ -163,6 +163,20 @@
   min-height: 100px;
 }
 
+.security-notice-inline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 11px;
+  margin-top: 8px;
+}
+
+.security-notice-inline svg {
+  color: var(--success);
+  flex-shrink: 0;
+}
+
 .help-text {
   font-size: 12px;
   color: var(--text-muted);
