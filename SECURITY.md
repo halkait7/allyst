@@ -28,8 +28,8 @@ Allyst takes security seriously. This document outlines our security practices a
 
 ### 4. **Data Privacy**
 - No user data is stored on our servers
-- No analytics or tracking scripts
-- No third-party integrations except Roblox API
+- Privacy-focused analytics (Vercel Analytics) for performance monitoring only
+- No third-party integrations except Roblox API and Vercel Analytics
 - All data processing happens client-side or in real-time
 
 ### 5. **Input Validation**
@@ -56,18 +56,11 @@ Allyst takes security seriously. This document outlines our security practices a
 
 ## Reporting Security Vulnerabilities
 
-If you discover a security vulnerability, please report it responsibly:
+If you discover a security vulnerability:
 
-1. **DO NOT** open a public GitHub issue
-2. **DO NOT** exploit the vulnerability
-3. **DO** email the details to: [h4lkait@example.com]
-4. Include:
-   - Description of the vulnerability
-   - Steps to reproduce
-   - Potential impact
-   - Suggested fix (if any)
-
-We will respond within 48 hours and work with you to resolve the issue.
+1. **DO NOT** exploit the vulnerability
+2. Use the application responsibly
+3. Consider contributing a fix if you're able
 
 ## Security Updates
 
@@ -105,10 +98,6 @@ This application is provided "as is" without warranty. Users are responsible for
 - [ ] Keep dependencies updated
 - [ ] Regular security audits
 - [ ] Backup and disaster recovery plan
-
-## Contact
-
-For security concerns or general support: [h4lakit@example.com]  
 
 ---
 

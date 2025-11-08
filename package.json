@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Roblox Friend List Manager - A modern, secure web application for managing Roblox friends",
   "license": "SEE LICENSE IN LICENSE",
-  "keywords": ["roblox", "friend-manager", "roblox-tools", "web-app"],
+  "keywords": [
+    "roblox",
+    "friend-manager",
+    "roblox-tools",
+    "web-app"
+  ],
   "main": "server.js",
   "private": true,
   "scripts": {
@@ -14,16 +19,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
+    "@vercel/analytics": "^1.5.0",
     "axios": "^1.6.0",
-    "dotenv": "^16.3.1"
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0",
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "vite": "^5.0.0"
   }
 }
