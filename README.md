@@ -114,12 +114,33 @@ This project is licensed under a custom license with restrictions. See [LICENSE]
 
 **TL;DR:** Free for personal use, commercial use requires permission.
 
-## Disclaimer
+## ⚠️ Important Disclaimers
 
-- This is an unofficial tool and is not affiliated with Roblox Corporation
-- Use at your own risk and in accordance with Roblox Terms of Service
+### Security Warning
+- **Your Roblox cookie is equivalent to your password**
+- Never share your cookie with anyone
+- Use this tool at your own risk
 - We are not responsible for any account actions taken by Roblox
-- Always keep your account credentials secure
+
+### Legal Notice
+- This is an **unofficial tool** and is **not affiliated with Roblox Corporation**
+- Use in accordance with Roblox Terms of Service
+- We make no warranties about the safety or legality of this tool
+- By using this tool, you accept all risks
+
+### Privacy & Data
+- Your cookie is stored **locally in your browser only**
+- We **never** send your cookie to our servers
+- All API requests go **directly to Roblox**
+- We do not collect, store, or transmit your personal data
+- Open-source code available for verification
+
+### Recommendations
+- ✅ Use on a trusted device
+- ✅ Log out when finished
+- ✅ Review the open-source code before use
+- ❌ Don't use on public/shared computers
+- ❌ Don't share your cookie with anyone
 
 ## Documentation
 

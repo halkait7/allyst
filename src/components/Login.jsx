@@ -78,9 +78,6 @@ function Login({ onLogin, theme, toggleTheme }) {
               rows={4}
               disabled={loading}
             />
-            <p className="help-text">
-              Your cookie is stored locally and never shared with third parties.
-            </p>
           </div>
 
           {error && (
@@ -107,23 +104,23 @@ function Login({ onLogin, theme, toggleTheme }) {
 
         <div className="login-footer">
           <details className="how-to">
-            <summary>How to get your cookie?</summary>
+            <summary>How to get your Roblox cookie?</summary>
             <ol>
-              <li>Open Roblox.com in your browser</li>
-              <li>Press F12 to open Developer Tools</li>
-              <li>Go to the "Application" or "Storage" tab</li>
-              <li>Find "Cookies" in the left sidebar</li>
-              <li>Click on "https://www.roblox.com"</li>
-              <li>Find ".ROBLOSECURITY" and copy its value</li>
-              <li>Paste it above (without the cookie name)</li>
+              <li>Open Roblox.com → Press F12</li>
+              <li>Application → Cookies → roblox.com</li>
+              <li>Copy .ROBLOSECURITY value</li>
             </ol>
           </details>
 
           <div className="security-notice">
-            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path d="M8 1L3 3V7C3 10.5 5.5 13.5 8 15C10.5 13.5 13 10.5 13 7V3L8 1Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
             </svg>
-            <span>Your data is encrypted and stored locally</span>
+            <span>Stored locally. Requests go directly to Roblox.</span>
+          </div>
+
+          <div className="disclaimer">
+            <small>Unofficial tool. Not affiliated with Roblox Corporation.</small>
           </div>
         </div>
       </div>

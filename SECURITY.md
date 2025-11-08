@@ -81,12 +81,39 @@ If you discover a security vulnerability:
 - No automation or botting features
 - No account sharing or unauthorized access
 
-## Disclaimer
+## ⚠️ Legal Disclaimer
 
-This application is provided "as is" without warranty. Users are responsible for:
-- Keeping their Roblox credentials secure
-- Using the app in accordance with Roblox ToS
-- Any actions taken through the app
+**USE AT YOUR OWN RISK**
+
+This application is provided "as is" without warranty of any kind, express or implied. 
+
+### User Responsibilities
+
+By using this tool, you acknowledge and agree that:
+
+1. **You are solely responsible** for keeping your Roblox credentials secure
+2. **You use this tool at your own risk** and accept all consequences
+3. **We are not liable** for any account warnings, bans, or actions taken by Roblox
+4. **You must comply** with Roblox Terms of Service
+5. **This is unofficial** and not endorsed by Roblox Corporation
+
+### No Warranties
+
+We make no warranties that:
+- This tool is safe to use
+- Your account won't be flagged by Roblox
+- The tool will work as expected
+- Your data is completely secure
+
+### Limitation of Liability
+
+To the maximum extent permitted by law, we shall not be liable for any damages arising from the use or inability to use this tool, including but not limited to:
+- Account suspensions or bans
+- Loss of data or friends
+- Security breaches
+- Violation of Roblox ToS
+
+**If you don't accept these terms, do not use this tool.**
 
 ## Security Checklist for Deployment
 

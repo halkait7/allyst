@@ -121,51 +121,91 @@
 }
 
 .login-footer {
-  margin-top: 32px;
-  padding-top: 24px;
+  margin-top: 24px;
+  padding-top: 20px;
   border-top: 1px solid var(--border);
 }
 
 .how-to {
-  margin-bottom: 20px;
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  border: 1px solid var(--border);
 }
 
 .how-to summary {
   cursor: pointer;
-  color: var(--accent);
-  font-weight: 600;
-  font-size: 14px;
-  padding: 8px 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
   user-select: none;
 }
 
 .how-to summary:hover {
-  color: var(--accent-hover);
+  color: var(--accent);
 }
 
 .how-to ol {
-  margin-top: 12px;
-  margin-left: 20px;
+  margin-top: 8px;
+  margin-left: 18px;
   color: var(--text-secondary);
-  font-size: 13px;
-  line-height: 1.8;
+  font-size: 11px;
+  line-height: 1.6;
 }
 
 .how-to li {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
+}
+
+.warning-box {
+  display: flex;
+  gap: 10px;
+  padding: 12px 14px;
+  background: rgba(255, 193, 7, 0.08);
+  border: 1px solid rgba(255, 193, 7, 0.25);
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.warning-box svg {
+  flex-shrink: 0;
+  color: #ffc107;
+  margin-top: 1px;
+}
+
+.warning-box p {
+  color: var(--text-secondary);
+  font-size: 11.5px;
+  line-height: 1.4;
+  margin: 0;
 }
 
 .security-notice {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   color: var(--text-muted);
-  font-size: 12px;
+  font-size: 11px;
+  margin: 12px 0 10px;
 }
 
 .security-notice svg {
   color: var(--success);
+  flex-shrink: 0;
+}
+
+.disclaimer {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.disclaimer small {
+  color: var(--text-muted);
+  font-size: 10px;
+  line-height: 1.3;
 }
 
 @media (max-width: 768px) {
