@@ -111,15 +111,25 @@
 @media (max-width: 768px) {
   .friend-card {
     padding: 16px;
+    gap: 12px;
   }
 
   .friend-avatar {
     width: 100px;
     height: 100px;
+    border-width: 2px;
   }
 
   .avatar-fallback {
     font-size: 40px;
+  }
+
+  .online-indicator {
+    width: 14px;
+    height: 14px;
+    border-width: 2px;
+    bottom: 6px;
+    right: 6px;
   }
 
   .friend-display-name {
@@ -128,5 +138,37 @@
 
   .friend-username {
     font-size: 13px;
+  }
+
+  .btn-view-profile {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .friend-card {
+    padding: 14px;
+  }
+
+  .friend-avatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  .avatar-fallback {
+    font-size: 36px;
+  }
+
+  .friend-display-name {
+    font-size: 15px;
+  }
+
+  .friend-username {
+    font-size: 12px;
+  }
+
+  .btn-view-profile {
+    font-size: 11px;
   }
 }
