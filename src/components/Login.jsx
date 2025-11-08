@@ -6,6 +6,7 @@ function Login({ onLogin, theme, toggleTheme }) {
   const [cookieInput, setCookieInput] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
+  const [showInfo, setShowInfo] = useState(false)
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -68,7 +69,27 @@ function Login({ onLogin, theme, toggleTheme }) {
 
         <form onSubmit={handleSubmit} className="login-form">
           <div className="form-group">
-            <label htmlFor="cookie">Roblox Cookie</label>
+            <label htmlFor="cookie">
+              Roblox Cookie
+              <button 
+                type="button"
+                className="info-icon" 
+                onClick={() => setShowInfo(!showInfo)}
+                aria-label="Why do we need your cookie?"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="12" y1="16" x2="12" y2="12"/>
+                  <line x1="12" y1="8" x2="12.01" y2="8"/>
+                </svg>
+              </button>
+            </label>
+            {showInfo && (
+              <div className="info-tooltip">
+                <p><strong>Why do we need your cookie?</strong></p>
+                <p>Your cookie authenticates you with Roblox's API so we can manage your friends. It's stored locally in your browser and never sent to our servers.</p>
+              </div>
+            )}
             <textarea
               id="cookie"
               className="input cookie-input"
