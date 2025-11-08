@@ -20,10 +20,10 @@ app.use((req, res, next) => {
   next();
 });
 
-// CORS configuration
+// CORS configuration - Allow all origins for public API
 const corsOptions = {
-  origin: isProduction ? process.env.FRONTEND_URL : '*',
-  credentials: true,
+  origin: '*',
+  credentials: false,
   optionsSuccessStatus: 200
 };
 
