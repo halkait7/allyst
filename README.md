@@ -1,5 +1,4 @@
-# Allyst
-
+# Allyst!
 > A powerful, secure web application for managing your Roblox friends efficiently.
 
 
