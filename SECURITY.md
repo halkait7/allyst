@@ -93,7 +93,7 @@ By using this tool, you acknowledge and agree that:
 
 1. **You are solely responsible** for keeping your Roblox credentials secure
 2. **You use this tool at your own risk** and accept all consequences
-3. **We are not liable** for any account warnings, bans, or actions taken by Roblox
+3. **We are not liable** for any account warnings, bans, or actions taken by Roblox 
 4. **You must comply** with Roblox Terms of Service
 5. **This is unofficial** and not endorsed by Roblox Corporation
 
